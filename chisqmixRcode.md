@@ -7,8 +7,8 @@
    - need to calculate $\Pr(Q>t)$
  - A non-central chi-square dist approximation is implemented.
    - match $(n-1)$-th and $n$-th moments 
-   - Ref: Wu, B., Pankow, J.S., 2015. On computing the tail probability of non-negative definite quadratic forms in central normal variables. /tech report/
-   - The current implementation requires the R /minqa/ package.
+   - Ref: Wu, B., Pankow, J.S., 2017. On computing the tail probability of non-negative definite quadratic forms in central normal variables. *tech report*
+   - The current implementation requires the R *minqa* package.
      - http://cran.r-project.org/web/packages/minqa/index.html
      - can use other numerical optimization prog. 
  - R codes
