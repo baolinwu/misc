@@ -1,2 +1,2 @@
 # misc
-Miscellaneous scripts and codes
+Collection of miscellaneous scripts and codes from various research projects.
