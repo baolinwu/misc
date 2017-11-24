@@ -145,9 +145,9 @@
     Q.Norm1 = Q.Norm*param$sigmaX + param$muX
     pchisq(Q.Norm1, df = param$l,ncp=param$d, lower.tail=FALSE)
   }
-#+end_src
+```
   - Compute inflation factor (IF): reproduce Table 2 in the paper.
-#+begin_src R
+```r
   library(CompQuadForm)
   ### IF comp
   satter.IF = function(pval, lampar1,lam){
