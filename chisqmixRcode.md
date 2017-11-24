@@ -182,4 +182,4 @@
 
 
 [f1]: http://chart.apis.google.com/chart?cht=tx&chl=Q=\sum_{i=1}^m\lambda_iX_i^2
-[f2]: http://chart.apis.google.com/chart?cht=tx&chl=\lambda_1\geq\ldots\geq\lambda_m\geq 0
+[f2]: http://chart.apis.google.com/chart?cht=tx&chl=\lambda_1\geq\ldots\geq\lambda_m\geq0
