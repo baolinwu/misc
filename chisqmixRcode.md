@@ -2,11 +2,11 @@
 
 ------
  - The problem reduces to compute the tail probability of weighted sum of 1-DF central chi-square rvs
-   - $Q=\sum_{i=1}^m\lambda_iX_i^2$
-   - $\lambda_1\geq\ldots\geq\lambda_m\geq 0$ and $X_i^2$ are iid 1-DF central chi-square rvs
-   - need to calculate $\Pr(Q>t)$
+   - ![f1]
+   - ![f2] and X_i^2 are iid 1-DF central chi-square rvs
+   - need to calculate Pr(Q>t)
  - A non-central chi-square dist approximation is implemented.
-   - match $(n-1)$-th and $n$-th moments 
+   - match (n-1)-th and n-th moments 
    - Ref: Wu, B., Pankow, J.S., 2017. On computing the tail probability of non-negative definite quadratic forms in central normal variables. *tech report*
    - The current implementation requires the R *minqa* package.
      - http://cran.r-project.org/web/packages/minqa/index.html
@@ -179,3 +179,7 @@
   for(a in pval) cat(wu.IF(a, wu.lambda(lam), lam), '\n')
 ```
 
+
+
+[f1]: http://chart.apis.google.com/chart?cht=tx&chl=Q=\sum_{i=1}^m\lambda_iX_i^2
+[f2]: http://chart.apis.google.com/chart?cht=tx&chl=\lambda_1\geq\ldots\geq\lambda_m\geq 0
